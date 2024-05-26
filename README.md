@@ -1,4 +1,4 @@
-# Laravel 10 使用 Tesseract 進行光學字元辨識
+# Laravel 11 使用 Tesseract 進行光學字元辨識
 
 引入 thiagoalessio 的 tesseract_ocr 套件來擴增使用 Tesseract 進行光學字元辨識，對字元資料的影像檔案進行分析辨識處理。
 
