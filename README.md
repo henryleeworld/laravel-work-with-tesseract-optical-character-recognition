@@ -1,4 +1,4 @@
-# Laravel 11 使用 Tesseract 進行光學字元辨識
+# Laravel 12 使用 Tesseract 進行光學字元辨識
 
 引入 thiagoalessio 的 tesseract_ocr 套件來擴增使用 Tesseract 進行光學字元辨識，對字元資料的影像檔案進行分析辨識處理。
 
@@ -16,11 +16,15 @@ $ composer install
 ```sh
 $ php artisan key:generate
 ```
+- 執行 __Artisan__ 指令的 __migrate__ 來執行所有未完成的遷移。
+```sh
+$ php artisan migrate
+```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/tesseract/parse/` 來進行字元辨識。
 
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/MMjPjiR.png)
+![](https://i.imgur.com/s9HMJ84.png)
 > 只有更清晰和更清晰的圖像的字元被識別
